@@ -123,7 +123,7 @@
                 "pref_disable_polling": false,
                 "source": "user",
                 "unique_id": null,
-                "disabled_by": null
+                "disabled_by": "user"
             },
             {
                 "entry_id": "e6564d38fe2c249706957faf70ad9dd6",

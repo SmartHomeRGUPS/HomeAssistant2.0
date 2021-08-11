@@ -165,7 +165,7 @@
                 "via_device_id": null,
                 "area_id": null,
                 "name_by_user": null,
-                "disabled_by": null
+                "disabled_by": "config_entry"
             },
             {
                 "config_entries": [
@@ -175,13 +175,13 @@
                 "identifiers": [
                     [
                         "homekit_controller",
-                        "accessory-id",
-                        "FB:A8:CE:2C:6B:6D"
+                        "serial-number",
+                        "0000000317046122"
                     ],
                     [
                         "homekit_controller",
-                        "serial-number",
-                        "0000000317046122"
+                        "accessory-id",
+                        "FB:A8:CE:2C:6B:6D"
                     ]
                 ],
                 "manufacturer": "Aqara",

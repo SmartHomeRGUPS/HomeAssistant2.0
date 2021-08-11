@@ -2,7 +2,7 @@ all_lights:
     name: Свет
     entities:
         - switch.wall_switch_051a
-        - switch.wall_switch_084a_left
+        - switch.wall_switch_084_left
         - switch.wall_switch_084a_right
         - switch.wall_switch_6d3f
         - switch.wall_switch_7fdf_left
@@ -12,7 +12,7 @@ all_lights:
 auditorium_lights:
     name: Свет в аудитории
     entities:
-        - switch.wall_switch_084a_left
+        - switch.wall_switch_084_left
         - switch.wall_switch_084a_right
         - switch.wall_switch_7fdf_left
         - switch.wall_switch_7fdf_right

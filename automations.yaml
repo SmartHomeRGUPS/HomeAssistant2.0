@@ -60,13 +60,12 @@
       entity_id: binary_sensor.water_leak_sensor_1f28
       from: 'off'
       to: 'on'
-  condition:
-    - condition: state
-      entity_id: group.relays_left
-      state: 'off'
   action:
     - service: homeassistant.turn_on 
+      entity_id: script.deactivate_relays
+    - service: homeassistant.turn_on 
       entity_id: script.water_off
+    
 - alias: deactivate_relays
   trigger:
     - platform: state

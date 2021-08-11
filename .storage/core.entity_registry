@@ -900,7 +900,7 @@
                 "platform": "hacs",
                 "name": null,
                 "icon": null,
-                "disabled_by": null,
+                "disabled_by": "config_entry",
                 "capabilities": {},
                 "supported_features": 0,
                 "device_class": null,
