@@ -9,3 +9,5 @@
 2021-08-11 15:16:05 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.wall_switch_084a_left
 2021-08-11 15:16:12 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.wall_switch_084a_left
 2021-08-11 15:18:39 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.wall_switch_084a_left
+2021-08-11 15:22:40 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.wall_switch_084a_left
+2021-08-11 15:22:45 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.wall_switch_084a_left
