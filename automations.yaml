@@ -1,0 +1,110 @@
+- alias: auditorium_light_to_motion_on
+  trigger:
+    - platform: state
+      entity_id: group.auditorium_sensors
+      to: 'on'
+  condition:
+    - condition: state
+      entity_id: group.auditorium_lights
+      state: 'off'
+  action:
+    - service: homeassistant.turn_on 
+      entity_id: script.auditorium_on
+      
+- alias: auditorium_light_to_motion_off
+  trigger:
+    - platform: state
+      entity_id: group.auditorium_sensors
+      to: 'off'
+      for:
+        minutes: 3
+  condition:
+    - condition: state
+      entity_id: group.auditorium_lights
+      state: 'on'
+  action:
+    - service: homeassistant.turn_on 
+      entity_id: script.auditorium_off
+      
+- alias: glass_light_to_motion_on
+  trigger:
+    - platform: state
+      entity_id: group.glass_sensors
+      to: 'on'
+  condition:
+    - condition: state
+      entity_id: group.glass_lights
+      state: 'off'
+  action:
+    - service: homeassistant.turn_on 
+      entity_id: script.glass_on
+      
+- alias: glass_light_to_motion_off
+  trigger:
+    - platform: state
+      entity_id: group.glass_sensors
+      to: 'off'
+      for:
+        minutes: 3
+  condition:
+    - condition: state
+      entity_id: group.glass_lights
+      state: 'on'
+  action:
+    - service: homeassistant.turn_on 
+      entity_id: script.glass_off
+      
+- alias: flooding
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.water_leak_sensor_1f28
+      from: 'off'
+      to: 'on'
+  condition:
+    - condition: state
+      entity_id: group.relays_left
+      state: 'off'
+  action:
+    - service: homeassistant.turn_on 
+      entity_id: script.water_off
+- alias: deactivate_relays
+  trigger:
+    - platform: state
+      entity_id: group.relays
+      to: 'on'
+      for:
+        minutes: 1
+  action:
+    - service: homeassistant.turn_on 
+      entity_id: script.deactivate_relays
+      
+- alias: turn_bathroom_fan_on
+  trigger:
+    - platform: numeric_state
+      entity_id: sensor.temperature_and_humidity_in_bathroom_humidity
+      above: 60
+  condition:
+    - condition: state
+      entity_id: switch.outlet_189a
+      state: 'off'
+  action:
+    - service: switch.turn_on
+      entity_id: switch.outlet_189a
+    
+- alias: turn_bathroom_fan_off
+  trigger:
+    - platform: numeric_state
+      entity_id: sensor.temperature_and_humidity_in_bathroom_humidity
+      below: 60
+    - platform: state
+      entity_id: switch.outlet_189a
+      to: 'on'
+      for:
+        minutes: 1
+  condition:
+    - condition: state
+      entity_id: switch.outlet_189a
+      state: 'on'  
+  action:
+    service: switch.turn_off
+    entity_id: switch.outlet_189a

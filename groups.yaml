@@ -1,0 +1,113 @@
+all_lights:
+    name: Свет
+    entities:
+        - switch.wall_switch_051a
+        - switch.wall_switch_084a_left
+        - switch.wall_switch_084a_right
+        - switch.wall_switch_6d3f
+        - switch.wall_switch_7fdf_left
+        - switch.wall_switch_7fdf_right
+        - switch.wall_switch_8aed
+        
+auditorium_lights:
+    name: Свет в аудитории
+    entities:
+        - switch.wall_switch_084a_left
+        - switch.wall_switch_084a_right
+        - switch.wall_switch_7fdf_left
+        - switch.wall_switch_7fdf_right
+        
+glass_lights:
+    name: Свет в стекле
+    entities:
+        - switch.wall_switch_051a
+        - switch.wall_switch_6d3f
+        - switch.wall_switch_8aed
+glass_sensors:
+    name: Сенсоры в стекле
+    entities:
+        - binary_sensor.motion_sensor_f0ba
+        - binary_sensor.motion_sensor_76e8
+        - binary_sensor.motion_sensor_d714
+auditorium_sensors:
+    name: Сенсоры в аудитории
+    entities:
+        - binary_sensor.motion_sensor_4c4d
+        - binary_sensor.motion_sensor_8cd6
+        - binary_sensor.motion_sensor_a6e6
+        - binary_sensor.motion_sensor_aae4
+        - binary_sensor.motion_sensor_bd40
+        - binary_sensor.motion_sensor_cf72
+        - binary_sensor.motion_sensor_d064
+        - binary_sensor.motion_sensor_d71e
+        - binary_sensor.motion_sensor_ead2
+        - binary_sensor.motion_sensor_f051
+        - binary_sensor.motion_sensor_f0e9
+        
+
+all_motion_sensors:
+    name: Все сенсоры
+    entities:
+        - binary_sensor.motion_sensor_4c4d
+        - binary_sensor.motion_sensor_76e8
+        - binary_sensor.motion_sensor_8cd6
+        - binary_sensor.motion_sensor_a6e6
+        - binary_sensor.motion_sensor_aae4
+        - binary_sensor.motion_sensor_bd40
+        - binary_sensor.motion_sensor_cf72
+        - binary_sensor.motion_sensor_d064
+        - binary_sensor.motion_sensor_d714
+        - binary_sensor.motion_sensor_d71e
+        - binary_sensor.motion_sensor_ead2
+        - binary_sensor.motion_sensor_f051
+        - binary_sensor.motion_sensor_f0ba
+        - binary_sensor.motion_sensor_f0e9
+        
+all_smart_sockets:
+    name: Вентиляция в стекле
+    entities:
+        - switch.outlet_189a
+        - switch.outlet_3a61
+relays:
+    name: Не активировать!
+    entities:
+        - switch.wall_switch_021f_left
+        - switch.wall_switch_021f_right
+        - switch.wall_switch_676b_left
+        - switch.wall_switch_676b_right
+        - switch.wall_switch_ee2f_left
+        - switch.wall_switch_ee2f_right
+        - switch.wall_switch_ee9c_left
+        - switch.wall_switch_ee9c_right
+        - switch.wall_switch_eea4_left
+        - switch.wall_switch_eea4_right
+        - switch.wall_switch_eeb3_left
+        - switch.wall_switch_eeb3_right
+        - switch.wall_switch_ef52_left
+        - switch.wall_switch_ef52_right
+        - switch.wall_switch_ef78_left
+        - switch.wall_switch_ef78_right
+relays_left:
+    name: Подача воды вкл
+    entities:
+        - switch.wall_switch_021f_left
+        - switch.wall_switch_676b_left
+        - switch.wall_switch_ee2f_left
+        - switch.wall_switch_ee9c_left
+        - switch.wall_switch_eea4_left
+        - switch.wall_switch_eeb3_left
+        - switch.wall_switch_ef52_left
+        - switch.wall_switch_ef78_left
+relays_right:
+    name: Подача воды выкл
+    entities:
+        - switch.wall_switch_021f_right
+        - switch.wall_switch_676b_right
+        - switch.wall_switch_ee2f_right
+        - switch.wall_switch_ee9c_right
+        - switch.wall_switch_eea4_right
+        - switch.wall_switch_eeb3_right
+        - switch.wall_switch_ef52_right
+        - switch.wall_switch_ef78_right
+
+

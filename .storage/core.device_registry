@@ -1,0 +1,1065 @@
+{
+    "version": 1,
+    "key": "core.device_registry",
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "d9dabdcfe54928eebb139b90ff454e5a"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hassio",
+                        "OS"
+                    ]
+                ],
+                "manufacturer": "Home Assistant",
+                "model": "Home Assistant Operating System",
+                "name": "Home Assistant Operating System",
+                "sw_version": "6.2",
+                "entry_type": "service",
+                "id": "abfa35293f60467992e1c24d9d406e8a",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "fafa9f2368e58ba44b0aee2255f63e51"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "976667a23907ca36"
+                    ]
+                ],
+                "manufacturer": "Xiaomi",
+                "model": "Mi 9T",
+                "name": "Mi 9T",
+                "sw_version": "29",
+                "entry_type": null,
+                "id": "a559239f8d5d048f79e64f8983d96177",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "27fdbea1898383de6796de63b4d39d0d"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "7c:49:eb:88:f4:b9"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "xiaomi_miio",
+                        "7c:49:eb:88:f4:b9"
+                    ]
+                ],
+                "manufacturer": "Xiaomi",
+                "model": "lumi.gateway.v3-MW300",
+                "name": "lumi.gateway.v3",
+                "sw_version": "1.4.1_176",
+                "entry_type": null,
+                "id": "c26a397130af0bcc5d5e0f0ca403eb30",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d9dabdcfe54928eebb139b90ff454e5a"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hassio",
+                        "core_configurator"
+                    ]
+                ],
+                "manufacturer": "Official add-ons",
+                "model": "Home Assistant Add-on",
+                "name": "File editor",
+                "sw_version": "5.3.3",
+                "entry_type": "service",
+                "id": "12ce5f563edcb59e06f4bfe6c27e579d",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d9dabdcfe54928eebb139b90ff454e5a"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hassio",
+                        "core_ssh"
+                    ]
+                ],
+                "manufacturer": "Official add-ons",
+                "model": "Home Assistant Add-on",
+                "name": "Terminal & SSH",
+                "sw_version": "9.1.3",
+                "entry_type": "service",
+                "id": "9b03a09f6786f00e22ce97649246df5d",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "150c60f9bc2a5149b88b804e8d4c1b6e"
+                ],
+                "connections": [
+                    [
+                        "upnp",
+                        "uuid:75802409-bccb-40e7-8e6c-40313cde95e5"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "upnp",
+                        "uuid:75802409-bccb-40e7-8e6c-40313cde95e5"
+                    ]
+                ],
+                "manufacturer": "Beijing Xiaomi Technology Co., Ltd.",
+                "model": "Wireless Router",
+                "name": "Xiaomi Mi R3G Wireless Router",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "87003c39c71e526336f8768ea80b87ae",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "c5a1e99b382cd736c452bccf5d46a056"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "hacs",
+                        "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+                    ]
+                ],
+                "manufacturer": "hacs.xyz",
+                "model": "",
+                "name": "HACS",
+                "sw_version": "1.13.2",
+                "entry_type": "service",
+                "id": "be19f5344f13927459f741ad56cd068d",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "accessory-id",
+                        "FB:A8:CE:2C:6B:6D"
+                    ],
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "0000000317046122"
+                    ]
+                ],
+                "manufacturer": "Aqara",
+                "model": "ZHWG11LM",
+                "name": "Aqara Hub-7DE5",
+                "sw_version": "3.1.2",
+                "entry_type": null,
+                "id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D000100D71E"
+                    ]
+                ],
+                "manufacturer": "Mi",
+                "model": "MS002",
+                "name": "Motion Sensor-D71E",
+                "sw_version": "1.0.10",
+                "entry_type": null,
+                "id": "b4e58b5f2d151dda873dcc0a1c8ebf55",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D00010AD064"
+                    ]
+                ],
+                "manufacturer": "Mi",
+                "model": "MS002",
+                "name": "Motion Sensor-D064",
+                "sw_version": "1.0.11",
+                "entry_type": null,
+                "id": "17b61edeb0313e597517a98391ac94fc",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D00010ECF72"
+                    ]
+                ],
+                "manufacturer": "Mi",
+                "model": "MS002",
+                "name": "Motion Sensor-CF72",
+                "sw_version": "1.0.10",
+                "entry_type": null,
+                "id": "965ab49883d908810e969cca63747426",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D00010EEAD2"
+                    ]
+                ],
+                "manufacturer": "Mi",
+                "model": "MS002",
+                "name": "Motion Sensor-EAD2",
+                "sw_version": "1.0.11",
+                "entry_type": null,
+                "id": "958203c61ebf9751ac32c76c1b17b20a",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D00010EF051"
+                    ]
+                ],
+                "manufacturer": "Mi",
+                "model": "MS002",
+                "name": "Motion Sensor-F051",
+                "sw_version": "1.0.10",
+                "entry_type": null,
+                "id": "af0be2b416850923d3cc3a24f555d57c",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D00010EF0BA"
+                    ]
+                ],
+                "manufacturer": "Mi",
+                "model": "MS002",
+                "name": "Motion Sensor-F0BA",
+                "sw_version": "1.0.10",
+                "entry_type": null,
+                "id": "87d0f9984152d935b8743b72ae374676",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D00010EF0E9"
+                    ]
+                ],
+                "manufacturer": "Mi",
+                "model": "MS002",
+                "name": "Motion Sensor-F0E9",
+                "sw_version": "1.0.10",
+                "entry_type": null,
+                "id": "70e5b6235a5e5d5d714b4fea2960ad84",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D0003F24C4D"
+                    ]
+                ],
+                "manufacturer": "Aqara",
+                "model": "AS007",
+                "name": "Motion Sensor-4C4D",
+                "sw_version": "1.0.5",
+                "entry_type": null,
+                "id": "51dc6148f8ac22fccac6a7cfd822331b",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D000411D714"
+                    ]
+                ],
+                "manufacturer": "Aqara",
+                "model": "AS007",
+                "name": "Motion Sensor-D714",
+                "sw_version": "1.0.5",
+                "entry_type": null,
+                "id": "a7c58a411ed8c9ed5b23ea2a14b0be72",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D00042A12B8"
+                    ]
+                ],
+                "manufacturer": "Aqara",
+                "model": "AS006",
+                "name": "Door and Window Sensor-12B8",
+                "sw_version": "1.0.3",
+                "entry_type": null,
+                "id": "eeeae82d0257714e69738bbaa54f36c9",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D00044F1F28"
+                    ]
+                ],
+                "manufacturer": "Aqara",
+                "model": "AS010",
+                "name": "Water Leak Sensor-1F28",
+                "sw_version": "1.0.4",
+                "entry_type": null,
+                "id": "52ed570173083bb57602104bf6e56f09",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": "Water_Leak_Sensor_1F28",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D000450BD40"
+                    ]
+                ],
+                "manufacturer": "Aqara",
+                "model": "AS007",
+                "name": "Motion Sensor-BD40",
+                "sw_version": "1.0.5",
+                "entry_type": null,
+                "id": "92ca648e8d7e5f156d1abe1d93f3f4bd",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D00045EFA9E"
+                    ]
+                ],
+                "manufacturer": "Mi",
+                "model": "MS005",
+                "name": "Smoke Sensor-FA9E",
+                "sw_version": "1.0.4",
+                "entry_type": null,
+                "id": "2da9c1140e714379e30ebe9142c98234",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D0004848CD6"
+                    ]
+                ],
+                "manufacturer": "Aqara",
+                "model": "AS007",
+                "name": "Motion Sensor-8CD6",
+                "sw_version": "1.0.5",
+                "entry_type": null,
+                "id": "b6294c8acb879d6948549736b5025adf",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D00048776E8"
+                    ]
+                ],
+                "manufacturer": "Aqara",
+                "model": "AS007",
+                "name": "Motion Sensor-76E8",
+                "sw_version": "1.0.5",
+                "entry_type": null,
+                "id": "ca3b9938c798c08eaf314ef316fa1607",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D00053FA6E6"
+                    ]
+                ],
+                "manufacturer": "Aqara",
+                "model": "AS007",
+                "name": "Motion Sensor-A6E6",
+                "sw_version": "1.0.5",
+                "entry_type": null,
+                "id": "d4ffa4f61423f875c66061c1c1d15986",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D00053FAAE4"
+                    ]
+                ],
+                "manufacturer": "Aqara",
+                "model": "AS007",
+                "name": "Motion Sensor-AAE4",
+                "sw_version": "1.0.5",
+                "entry_type": null,
+                "id": "6d62845fe50a82d2b65f95038f9349d8",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D000110189A"
+                    ]
+                ],
+                "manufacturer": "Mi",
+                "model": "MP001",
+                "name": "Outlet-189A",
+                "sw_version": "1.0.22",
+                "entry_type": null,
+                "id": "3bec9325d36afb1329c8d93abe4ba14c",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D0003C73A61"
+                    ]
+                ],
+                "manufacturer": "Mi",
+                "model": "MP001",
+                "name": "Outlet-3A61",
+                "sw_version": "1.0.34",
+                "entry_type": null,
+                "id": "37b26dee662210a193ea6d976b8ab712",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D0003D27FDF"
+                    ]
+                ],
+                "manufacturer": "Aqara",
+                "model": "AK014",
+                "name": "Wall Switch-7FDF",
+                "sw_version": "1.0.22",
+                "entry_type": null,
+                "id": "b3e40465ffe128df9428036610a77396",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": "Wall_Switch_7FDF",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D000428676B"
+                    ]
+                ],
+                "manufacturer": "Aqara",
+                "model": "EK012",
+                "name": "Wall Switch-676B",
+                "sw_version": "1.0.36",
+                "entry_type": null,
+                "id": "64b3fa719ee9c150a99eae1b13eddc5a",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": "Wall_Switch_676B",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D000428EE9C"
+                    ]
+                ],
+                "manufacturer": "Aqara",
+                "model": "EK012",
+                "name": "Wall Switch-EE9C",
+                "sw_version": "1.0.36",
+                "entry_type": null,
+                "id": "72250d6bc93847124cb882172ba23300",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": "Wall_Switch_EE9C",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D000428EEA4"
+                    ]
+                ],
+                "manufacturer": "Aqara",
+                "model": "EK012",
+                "name": "Wall Switch-EEA4",
+                "sw_version": "1.0.36",
+                "entry_type": null,
+                "id": "578563ee7b79ca965570a2e70d75eef0",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": "Wall_Switch_EEA4",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D000428EEB3"
+                    ]
+                ],
+                "manufacturer": "Aqara",
+                "model": "EK012",
+                "name": "Wall Switch-EEB3",
+                "sw_version": "1.0.46",
+                "entry_type": null,
+                "id": "e8ce38cdd04920cb31d2b618f46d957a",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": "Wall_Switch_EEB3",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D000428EF52"
+                    ]
+                ],
+                "manufacturer": "Aqara",
+                "model": "EK012",
+                "name": "Wall Switch-EF52",
+                "sw_version": "1.0.36",
+                "entry_type": null,
+                "id": "4b8d4926fdcdc34e274be552c61e4d9a",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": "Wall_Switch_EF52",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D000428EF78"
+                    ]
+                ],
+                "manufacturer": "Aqara",
+                "model": "EK012",
+                "name": "Wall Switch-EF78",
+                "sw_version": "1.0.46",
+                "entry_type": null,
+                "id": "c858d1375e7980da3a0d616590f855f4",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": "Wall_Switch_EF78",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D00042AEE2F"
+                    ]
+                ],
+                "manufacturer": "Aqara",
+                "model": "EK012",
+                "name": "Wall Switch-EE2F",
+                "sw_version": "1.0.36",
+                "entry_type": null,
+                "id": "76ad2140b7bde154335d07fa69b80cc7",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": "Wall_Switch_EE2F",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D0004330A84"
+                    ]
+                ],
+                "manufacturer": "Aqara",
+                "model": "AK014",
+                "name": "Wall Switch-0A84",
+                "sw_version": "1.0.22",
+                "entry_type": null,
+                "id": "8113ecbd28f6ab84118f388272a9ea0b",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": "Wall_Switch_084A",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D0004518AED"
+                    ]
+                ],
+                "manufacturer": "Aqara",
+                "model": "AK013",
+                "name": "Wall Switch-8AED",
+                "sw_version": "1.0.22",
+                "entry_type": null,
+                "id": "d30295c3aa03f985d696fcb4e8957a81",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": "Wall_Switch_8AED",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D00045C051A"
+                    ]
+                ],
+                "manufacturer": "Aqara",
+                "model": "AK013",
+                "name": "Wall Switch-051A",
+                "sw_version": "1.0.22",
+                "entry_type": null,
+                "id": "39ddde08af28d96bc1d695cea81db609",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": "Wall_Switch_051A",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D00045C6D3F"
+                    ]
+                ],
+                "manufacturer": "Aqara",
+                "model": "AK013",
+                "name": "Wall Switch-6D3F",
+                "sw_version": "1.0.22",
+                "entry_type": null,
+                "id": "94e48aa592b48211896d23c19ee05510",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": "Wall_Switch_6D3F",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D000463021F"
+                    ]
+                ],
+                "manufacturer": "Aqara",
+                "model": "EK012",
+                "name": "Wall Switch-021F",
+                "sw_version": "1.0.36",
+                "entry_type": null,
+                "id": "73caf22a399a1c6aa2e6d7c7137134e8",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": "Wall_Switch_021F",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D0002F39CBE"
+                    ]
+                ],
+                "manufacturer": "Aqara",
+                "model": "AK002",
+                "name": "Wireless Mini Switch-9CBE",
+                "sw_version": "1.0.5",
+                "entry_type": null,
+                "id": "6cf419659c4d0e6e1530ef581a50c32f",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": null,
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "e6564d38fe2c249706957faf70ad9dd6"
+                ],
+                "connections": [],
+                "identifiers": [
+                    [
+                        "homekit_controller",
+                        "serial-number",
+                        "00158D000486CE62"
+                    ]
+                ],
+                "manufacturer": "Aqara",
+                "model": "AS008",
+                "name": "Temperature and Humidity Sensor-CE62",
+                "sw_version": "1.0.5",
+                "entry_type": null,
+                "id": "0e12fc0b4effc8d796f06253d02d616e",
+                "via_device_id": "46c7328ec5cec4f0867a2b1c72171d25",
+                "area_id": null,
+                "name_by_user": "Temperature_and_Humidity_in_bathroom",
+                "disabled_by": null
+            },
+            {
+                "config_entries": [
+                    "d7cafd578a07ce6496e4f31caec66690"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "44:23:7c:3a:93:33"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "xiaomi_miio",
+                        "44:23:7c:3a:93:33"
+                    ]
+                ],
+                "manufacturer": "Xiaomi",
+                "model": "chuangmi.plug.v2",
+                "name": "Xiaomi Miio Switch",
+                "sw_version": null,
+                "entry_type": null,
+                "id": "2093b1170c81675afead8ed18f31558a",
+                "via_device_id": null,
+                "area_id": null,
+                "name_by_user": "anime_192_168_1_65",
+                "disabled_by": null
+            }
+        ],
+        "deleted_devices": [
+            {
+                "config_entries": [],
+                "connections": [
+                    [
+                        "mac",
+                        "ee:8c:a9:ba:b0:29"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "homekit",
+                        "70dfd411e5e7b51353bd10b67937430e",
+                        "homekit.bridge"
+                    ]
+                ],
+                "id": "3524fe4438f6022541f57c51e37bdc7b",
+                "orphaned_timestamp": 1628426960.620818
+            },
+            {
+                "config_entries": [],
+                "connections": [
+                    [
+                        "mac",
+                        "bf:20:a4:e2:ab:ae"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "homekit",
+                        "b9bb3711e627834e8c63edf0efd93b96",
+                        "homekit.bridge"
+                    ]
+                ],
+                "id": "d98fa0982766a7929c1fbb6de6b44373",
+                "orphaned_timestamp": 1628428380.1031814
+            },
+            {
+                "config_entries": [],
+                "connections": [
+                    [
+                        "mac",
+                        "b7:51:74:9e:5a:7f"
+                    ]
+                ],
+                "identifiers": [
+                    [
+                        "homekit",
+                        "c84db62e41788674ede7b60c57984e82",
+                        "homekit.bridge"
+                    ]
+                ],
+                "id": "36b06717082e0edaf04f6ff185feb632",
+                "orphaned_timestamp": 1628429125.1943083
+            }
+        ]
+    }
+}

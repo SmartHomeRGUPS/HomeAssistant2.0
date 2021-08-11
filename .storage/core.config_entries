@@ -1,0 +1,174 @@
+{
+    "version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "d9dabdcfe54928eebb139b90ff454e5a",
+                "version": 1,
+                "domain": "hassio",
+                "title": "Supervisor",
+                "data": {},
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "system",
+                "unique_id": "hassio",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "fafa9f2368e58ba44b0aee2255f63e51",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Mi 9T",
+                "data": {
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "2021.6.2-full (694)",
+                    "device_name": "Mi 9T",
+                    "manufacturer": "Xiaomi",
+                    "model": "Mi 9T",
+                    "os_name": "Android",
+                    "os_version": "29",
+                    "supports_encryption": false,
+                    "app_data": {
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+                        "push_token": "frdFh6pAS7iRSsxlr68z-O:APA91bFHrYEor6fgXb2KUc8ZjvlUW2NmSRXpLSvO_s9ASrRRFTWHnNXv4yrS6XlGDhUwrpik0f6dPAKNtsytJBXl8HnELIpzIbd3q9b_o7_v3_43ncFa77s3uEhs2pohrC7y3et69_LD"
+                    },
+                    "device_id": "976667a23907ca36",
+                    "webhook_id": "8ebaa6133508035fc37cb2f1898efe1214db3cb67f1cc51791b141b54be4f3a4",
+                    "user_id": "8137dcfa020c4f03893e0bd674871179"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "registration",
+                "unique_id": "io.homeassistant.companion.android-976667a23907ca36",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "27fdbea1898383de6796de63b4d39d0d",
+                "version": 1,
+                "domain": "xiaomi_miio",
+                "title": "lumi.gateway.v3",
+                "data": {
+                    "config_flow_device": "gateway",
+                    "host": "192.168.1.53",
+                    "token": "32b3cbc512a8e4a12d58a77a4566b8dd",
+                    "model": "lumi.gateway.v3",
+                    "mac": "7c:49:eb:88:f4:b9",
+                    "cloud_username": null,
+                    "cloud_password": null,
+                    "cloud_country": null
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "zeroconf",
+                "unique_id": "7c:49:eb:88:f4:b9",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "5c96e29d88b9bd0cd10b5f8e55615937",
+                "version": 1,
+                "domain": "xiaomi_aqara",
+                "title": "192.168.1.53",
+                "data": {
+                    "host": "192.168.1.53",
+                    "mac": "7c:49:eb:88:f4:b9"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "ignore",
+                "unique_id": "7c:49:eb:88:f4:b9",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "150c60f9bc2a5149b88b804e8d4c1b6e",
+                "version": 1,
+                "domain": "upnp",
+                "title": "Xiaomi Mi R3G Wireless Router",
+                "data": {
+                    "udn": "uuid:75802409-bccb-40e7-8e6c-40313cde95e5",
+                    "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+                    "hostname": "192.168.1.1"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "ssdp",
+                "unique_id": "uuid:75802409-bccb-40e7-8e6c-40313cde95e5::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "c5a1e99b382cd736c452bccf5d46a056",
+                "version": 1,
+                "domain": "hacs",
+                "title": "",
+                "data": {
+                    "token": "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"
+                },
+                "options": {
+                    "sidepanel_title": "HACS",
+                    "sidepanel_icon": "hacs:hacs",
+                    "release_limit": 5,
+                    "country": "ALL",
+                    "appdaemon": false,
+                    "netdaemon": false,
+                    "debug": false,
+                    "experimental": false
+                },
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": null,
+                "disabled_by": null
+            },
+            {
+                "entry_id": "e6564d38fe2c249706957faf70ad9dd6",
+                "version": 1,
+                "domain": "homekit_controller",
+                "title": "Aqara Hub-7DE5",
+                "data": {
+                    "AccessoryPairingID": "FB:A8:CE:2C:6B:6D",
+                    "AccessoryLTPK": "812f4ca2418567e982e1046ad8b00e8b6f0fa9322bee4a3644f450779373c516",
+                    "iOSPairingId": "42c20adc-672b-4924-b0ac-008aea4c56fe",
+                    "iOSDeviceLTSK": "2115d9210c2fee91a748aa61d0a2b2f884c6e23820ef238cde00216b34db86b0",
+                    "iOSDeviceLTPK": "d9997c22e997cb63ac88841a0fc9aba6308a226b00ff4192ba3e242e3cb0b641",
+                    "AccessoryIP": "192.168.1.65",
+                    "AccessoryPort": 4567,
+                    "Connection": "IP"
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "user",
+                "unique_id": "fb:a8:ce:2c:6b:6d",
+                "disabled_by": null
+            },
+            {
+                "entry_id": "d7cafd578a07ce6496e4f31caec66690",
+                "version": 1,
+                "domain": "xiaomi_miio",
+                "title": "Xiaomi Miio Switch",
+                "data": {
+                    "config_flow_device": "device",
+                    "host": "192.168.1.165",
+                    "token": "a371a38255fcbb2b2cd395ec0acf3ef0",
+                    "model": "chuangmi.plug.v2",
+                    "mac": "44:23:7c:3a:93:33",
+                    "cloud_username": null,
+                    "cloud_password": null,
+                    "cloud_country": null
+                },
+                "options": {},
+                "pref_disable_new_entities": false,
+                "pref_disable_polling": false,
+                "source": "import",
+                "unique_id": "44:23:7c:3a:93:33",
+                "disabled_by": null
+            }
+        ]
+    }
+}

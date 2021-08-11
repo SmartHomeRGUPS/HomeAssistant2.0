@@ -1,0 +1,70 @@
+#anime_conditioner:
+#    sequence:
+#        service: remote.send_command
+#        entity_id: 'remote.xiaomi_miio_192_168_1_165' 
+#        data:
+#            command:
+#                raw: nE5m8wlk0mgAhTWazCWTGbTgAjgA/AD8DHwCPAI8AjwCEmgOHgBuAwQCfgB+Cn4JXgB+C14AfgB+AH4Afg4eAh4AfgB+ETIA/gB+A/4A9A4aBB4A/gB+A/sA
+
+
+all_off:
+    alias: Откл. все
+    sequence:
+    - service: switch.turn_off
+      entity_id: group.all_lights
+all_on:
+    alias: Вкл. все
+    sequence:
+    - service: switch.turn_on
+      entity_id: group.all_lights
+
+auditorium_off:
+    alias: Откл. в аудитории
+    sequence:
+    - service: switch.turn_off
+      entity_id: group.auditorium_lights
+auditorium_on:
+    alias: Вкл. в аудитории
+    sequence:
+    - service: switch.turn_on
+      entity_id: group.auditorium_lights
+
+glass_off:
+    alias: Откл. в стекле
+    sequence:
+    - service: switch.turn_off
+      entity_id: group.glass_lights
+
+glass_on:
+    alias: Вкл. в стекле
+    sequence:
+    - service: switch.turn_on
+      entity_id: group.glass_lights
+      
+vent_on:
+    alias: Активировать вентиляцию
+    sequence:
+    - service: switch.turn_on
+      entity_id: group.all_smart_sockets
+vent_off:
+    alias: Деактивировать вентиляцию
+    sequence:
+    - service: switch.turn_off
+      entity_id: group.all_smart_sockets
+water_on:
+    alias: Активировать подачу воды
+    sequence:
+    - service: switch.turn_on
+      entity_id: group.relays_left
+water_off:
+    alias: Активировать перекрытие воды
+    sequence:
+    - service: switch.turn_on
+      entity_id: group.relays_right
+deactivate_relays:
+    alias: Декативировать все реле
+    sequence:
+    - service: switch.turn_off
+      entity_id: group.relays
+      
+        

@@ -1,0 +1,12 @@
+{
+    "version": 1,
+    "key": "auth_provider.homeassistant",
+    "data": {
+        "users": [
+            {
+                "username": "smarthy",
+                "password": "JDJiJDEyJHRTUG4yOWVnU1NNWHhxc0RzY3FqZE9ITmNFWTB6Y1R2OHZ6RzB3c1VsallkQTNlOU5JQVJH"
+            }
+        ]
+    }
+}

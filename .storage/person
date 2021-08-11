@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "key": "person",
+    "data": {
+        "items": [
+            {
+                "name": "SmartHy",
+                "user_id": "8137dcfa020c4f03893e0bd674871179",
+                "device_trackers": [
+                    "device_tracker.mi_9t"
+                ],
+                "id": "smarthy"
+            }
+        ]
+    }
+}

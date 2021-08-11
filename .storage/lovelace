@@ -1,0 +1,246 @@
+{
+    "version": 1,
+    "key": "lovelace",
+    "data": {
+        "config": {
+            "title": "Home Assistant2.0",
+            "views": [
+                {
+                    "path": "default_view",
+                    "title": "Home",
+                    "cards": [
+                        {
+                            "type": "alarm-panel",
+                            "entity": "alarm_control_panel.aqara_hub_7de5"
+                        },
+                        {
+                            "type": "alarm-panel",
+                            "entity": "alarm_control_panel.lumi_gateway_v3_alarm"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "binary_sensor.door_and_window_sensor_12b8",
+                                "binary_sensor.motion_sensor_4c4d",
+                                "binary_sensor.motion_sensor_76e8",
+                                "binary_sensor.motion_sensor_8cd6",
+                                "binary_sensor.motion_sensor_a6e6",
+                                "binary_sensor.motion_sensor_aae4",
+                                "binary_sensor.motion_sensor_bd40",
+                                "binary_sensor.motion_sensor_cf72",
+                                "binary_sensor.motion_sensor_d064",
+                                "binary_sensor.motion_sensor_d714",
+                                "binary_sensor.motion_sensor_d71e",
+                                "binary_sensor.motion_sensor_ead2",
+                                "binary_sensor.motion_sensor_f051",
+                                "binary_sensor.motion_sensor_f0ba",
+                                "binary_sensor.motion_sensor_f0e9",
+                                "binary_sensor.smoke_sensor_fa9e",
+                                "binary_sensor.updater",
+                                "binary_sensor.water_leak_sensor_1f28"
+                            ],
+                            "title": "\u0411\u0438\u043d\u0430\u0440\u043d\u044b\u0439 \u0441\u0435\u043d\u0441\u043e\u0440"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "light.aqara_hub_7de5",
+                                "light.lumi_gateway_v3_light"
+                            ],
+                            "title": "\u041e\u0441\u0432\u0435\u0449\u0435\u043d\u0438\u0435"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "person.smarthy"
+                            ],
+                            "title": "\u041b\u044e\u0434\u0438"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "sensor.temperature_and_humidity_sensor_ce62_humidity",
+                                "sensor.temperature_and_humidity_sensor_ce62_temperature",
+                                "sensor.xiaomi_mi_r3g_wireless_router_b_received",
+                                "sensor.xiaomi_mi_r3g_wireless_router_b_sent",
+                                "sensor.xiaomi_mi_r3g_wireless_router_kib_s_received",
+                                "sensor.xiaomi_mi_r3g_wireless_router_kib_s_sent",
+                                "sensor.xiaomi_mi_r3g_wireless_router_packets_received",
+                                "sensor.xiaomi_mi_r3g_wireless_router_packets_sent",
+                                "sensor.xiaomi_mi_r3g_wireless_router_packets_s_received",
+                                "sensor.xiaomi_mi_r3g_wireless_router_packets_s_sent",
+                                "sensor.hacs",
+                                "sensor.lumi_gateway_v3_illuminance"
+                            ],
+                            "title": "\u0421\u0435\u043d\u0441\u043e\u0440"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "sun.sun"
+                            ],
+                            "title": "\u0421\u043e\u043b\u043d\u0446\u0435"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "switch.outlet_189a",
+                                "switch.outlet_3a61",
+                                "switch.wall_switch_021f",
+                                "switch.wall_switch_021f_2",
+                                "switch.wall_switch_676b",
+                                "switch.wall_switch_676b_2",
+                                "switch.wall_switch_ee2f",
+                                "switch.wall_switch_ee2f_2",
+                                "switch.wall_switch_ee9c",
+                                "switch.wall_switch_ee9c_2",
+                                "switch.wall_switch_eea4",
+                                "switch.wall_switch_eea4_2",
+                                "switch.wall_switch_eeb3",
+                                "switch.wall_switch_eeb3_2",
+                                "switch.wall_switch_ef52",
+                                "switch.wall_switch_ef52_2",
+                                "switch.wall_switch_ef78",
+                                "switch.wall_switch_ef78_2",
+                                "switch.wall_switch_051a",
+                                "switch.wall_switch_084a",
+                                "switch.wall_switch_084a_2",
+                                "switch.wall_switch_6d3f",
+                                "switch.wall_switch_7fdf",
+                                "switch.wall_switch_7fdf_2",
+                                "switch.wall_switch_8aed"
+                            ],
+                            "title": "\u0412\u044b\u043a\u043b\u044e\u0447\u0430\u0442\u0435\u043b\u044c"
+                        },
+                        {
+                            "type": "entity",
+                            "entity": "script.all_off"
+                        },
+                        {
+                            "type": "entity",
+                            "entity": "group.all_lights"
+                        },
+                        {
+                            "type": "button",
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "entity": "script.all_off"
+                        },
+                        {
+                            "type": "button",
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "entity": "script.all_on"
+                        },
+                        {
+                            "type": "button",
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "entity": "script.auditorium_off"
+                        },
+                        {
+                            "type": "button",
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "entity": "script.auditorium_on"
+                        },
+                        {
+                            "type": "button",
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "entity": "script.glass_off"
+                        },
+                        {
+                            "type": "button",
+                            "tap_action": {
+                                "action": "toggle"
+                            },
+                            "entity": "script.glass_on"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "group.all_lights"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "script.all_off"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "group.all_motion_sensors"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "script.vent_off"
+                                },
+                                {
+                                    "entity": "script.vent_on"
+                                }
+                            ],
+                            "state_color": true
+                        },
+                        {
+                            "type": "thermostat",
+                            "entity": "climate.anime"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                "script.anime_conditioner"
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "script.water_off"
+                                },
+                                {
+                                    "entity": "script.water_on"
+                                },
+                                {
+                                    "entity": "script.deactivate_relays"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entity",
+                            "entity": "group.glass_sensors"
+                        },
+                        {
+                            "type": "entity",
+                            "entity": "group.glass_lights"
+                        },
+                        {
+                            "type": "entity",
+                            "entity": "group.relays"
+                        },
+                        {
+                            "type": "entity",
+                            "entity": "switch.outlet_189a"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
