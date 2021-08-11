@@ -12,9 +12,9 @@ var CONFIG = {
    entitySize: ENTITY_SIZES.NORMAL, //SMALL, BIG are available
    tileSize: 150,
    tileMargin: 6,
-   serverUrl: 'http://' + location.hostname + ':8123',
-   wsUrl: 'ws://' + location.hostname + ':8123/api/websocket',
-   authToken: "GXvLWhXdxEYTizIqpHQjy6elagrpX8c35lJsvzkFUWg", // optional long-lived token (CAUTION: only if TileBoard is not exposed to the internet)
+   serverUrl: 'http://192.168.1.182:8123',
+   wsUrl: 'ws://192.168.1.182:8123/api/websocket',
+   authToken: null, // optional long-lived token (CAUTION: only if TileBoard is not exposed to the internet)
    //googleApiKey: "XXXXXXXXXX", // Required if you are using Google Maps for device tracker
    //mapboxToken: "XXXXXXXXXX", // Required if you are using Mapbox for device tracker
    debug: false, // Prints entities and state change info to the console.
