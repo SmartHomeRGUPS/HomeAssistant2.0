@@ -7,14 +7,14 @@
 */
 
 var CONFIG = {
-   customTheme: CUSTOM_THEMES.COMPACT, // CUSTOM_THEMES.TRANSPARENT, CUSTOM_THEMES.MATERIAL, CUSTOM_THEMES.MOBILE, CUSTOM_THEMES.COMPACT, CUSTOM_THEMES.HOMEKIT, CUSTOM_THEMES.WINPHONE, CUSTOM_THEMES.WIN95
-   transition: TRANSITIONS.SIMPLE, //ANIMATED or SIMPLE (better perfomance)
+   customTheme: null, // CUSTOM_THEMES.TRANSPARENT, CUSTOM_THEMES.MATERIAL, CUSTOM_THEMES.MOBILE, CUSTOM_THEMES.COMPACT, CUSTOM_THEMES.HOMEKIT, CUSTOM_THEMES.WINPHONE, CUSTOM_THEMES.WIN95
+   transition: TRANSITIONS.ANIMATED_GPU, //ANIMATED or SIMPLE (better perfomance)
    entitySize: ENTITY_SIZES.NORMAL, //SMALL, BIG are available
    tileSize: 150,
    tileMargin: 6,
-   serverUrl: 'http://homeassistant.local:8123',
-   wsUrl: 'ws://homeassistant.local:8123/api/websocket',
-   authToken: "GXvLWhXdxEYTizIqpHQjy6elagrpX8c35lJsvzkFUWg", // optional long-lived token (CAUTION: only if TileBoard is not exposed to the internet)
+   serverUrl: 'http://192.168.1.182:8123',
+   wsUrl: 'ws://192.168.1.182:8123/api/websocket',
+   authToken: null, // optional long-lived token (CAUTION: only if TileBoard is not exposed to the internet)
    //googleApiKey: "XXXXXXXXXX", // Required if you are using Google Maps for device tracker
    //mapboxToken: "XXXXXXXXXX", // Required if you are using Mapbox for device tracker
    debug: false, // Prints entities and state change info to the console.
