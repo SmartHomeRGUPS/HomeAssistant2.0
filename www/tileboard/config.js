@@ -19,7 +19,7 @@ var CONFIG = {
    //mapboxToken: "XXXXXXXXXX", // Required if you are using Mapbox for device tracker
    debug: false, // Prints entities and state change info to the console.
    pingConnection: true, //ping connection to prevent silent disconnections
-   locale: 'en-us', // locale for date and number formats - available locales: it, de, es, fr, pt, ru, nl, pl, en-gb, en-us (default). See readme on adding custom locales.
+   locale: 'ru', // locale for date and number formats - available locales: it, de, es, fr, pt, ru, nl, pl, en-gb, en-us (default). See readme on adding custom locales.
    // next fields are optional
    events: [],
    timeFormat: 24,
@@ -36,10 +36,10 @@ var CONFIG = {
       right: [
          {
             type: HEADER_ITEMS.CUSTOM_HTML,
-            html: 'Average Temperature In Room'
+            html: 'Средняя температура в аудитории'
          },
          {
-            type: HEADER_ITEMS.WEATHER,
+            type: TYPES.SENSOR,
             styles: {
                margin: '0'
             },
@@ -134,19 +134,19 @@ var CONFIG = {
          icon: 'mdi-numeric-1-box-outline',
          groups: [
             {
-               title: 'Light',
+               title: 'Свет',
                height: 2,
-               width: 3,
+               width: 2,
                items: [
                   {
                      position: [0,0],
                      width: 2,
                      type: TYPES.SWITCH,
                      id: "group.all_lights",
-                     title: 'AllLight',
+                     title: 'Вкл/Выкл всего света',
                      states: {
-                        on: "on",
-                        off: "off",
+                        on: "Вкл",
+                        off: "Выкл",
                      },
                      icons: {
                         on: 'mdi-lightbulb-on',
@@ -158,10 +158,10 @@ var CONFIG = {
                      width: 2,
                      type: TYPES.SWITCH,
                      id: "group.auditorium_lights",
-                     title: "Light in Main Room",
+                     title: "Свет в Учебном помещении",
                      states: {
-                        on: 'on',
-                        off: 'off',
+                        on: 'Вкл',
+                        off: 'Выкл',
                      },
                      icons: {
                         on: 'mdi-lightbulb-on',
@@ -173,10 +173,10 @@ var CONFIG = {
                      width: 2,
                      type: TYPES.SWITCH,
                      id: "group.glass_lights",
-                     title: "Light in Glass Room",
+                     title: "Свет в стеклянной комнате",
                      states: {
-                        on: 'on',
-                        off: 'off',
+                        on: 'Вкл',
+                        off: 'Выкл',
                      },
                      icons: {
                         on: 'mdi-lightbulb-on',
@@ -186,18 +186,18 @@ var CONFIG = {
                ],
             },
             {
-               title: 'Sensors',
+               title: 'Датчики',
                height: 2,
-               width: 3,
+               width: 2,
                items: [
                   {
                      position: [0,0],
                      type: TYPES.SENSOR_ICON,
                      id: 'binary_sensor.water_leak_sensor_1f28',
-                     title: 'water check',
+                     title: 'Дачтик протечки',
                      states: {
-                        on: "On",
-                        off: "Off",
+                        on: "Протечка",
+                        off: "Нет протечки",
                      },
                      icons: {
                         on: 'mdi-hot-tub',
@@ -205,13 +205,13 @@ var CONFIG = {
                      },
                   },
                   {
-                      title:"Smoke", //nomi
+                      title:"Датчик дыма", //nomi
                       id: 'binary_sensor.smoke_sensor_fa9e', //idraqami
                       position:[1,0], //ajratilganJ
                       type: TYPES.SENSOR_ICON,
                       states: {
-                        on: "On",
-                        off: "Off",
+                        on: "Обнаружен дым",
+                        off: "Дым не обнаружен",
                      },
                      icons: {
                         on: 'mdi-bell',
@@ -219,18 +219,41 @@ var CONFIG = {
                      },
                   },
                   {
-                    title:'Door',
+                    title:'Стеклянная дверь',
                     position:[0,1],
                     type: TYPES.SENSOR_ICON,
                     id: 'binary_sensor.door_and_window_sensor_12b8',
                     states:{
-                        on:"open",
-                        off:"close",
+                        on:"Открыто",
+                        off:"Закрыто",
                     },
                     icons:{
                         off:"mdi-lock",
                         on:"mdi-lock-open",
                     },
+                  },
+               ],
+            },
+            {
+               title:'Стеклянная комната',
+               height: 2,
+               width: 2,
+               items: [
+                  {
+                     position: [0,0],
+                     type: TYPES.SENSOR,
+                     title: 'Температура',
+                     id: 'sensor.temperature_and_humidity_in_bathroom_temperature',
+                     unit: '°C',
+                     state: false,
+                  },
+                  {
+                     position: [1,0],
+                     type: TYPES.SENSOR,
+                     title: 'Влажность',
+                     id: 'sensor.temperature_and_humidity_in_bathroom_humidity',
+                     unit: '%',
+                     state: false,
                   },
                ],
             },
