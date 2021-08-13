@@ -7,7 +7,7 @@
 */
 
 var CONFIG = {
-   customTheme: CUSTOM_THEMES.TRANSPARENT, // CUSTOM_THEMES.TRANSPARENT, CUSTOM_THEMES.MATERIAL, CUSTOM_THEMES.MOBILE, CUSTOM_THEMES.COMPACT, CUSTOM_THEMES.HOMEKIT, CUSTOM_THEMES.WINPHONE, CUSTOM_THEMES.WIN95
+   customTheme:CUSTOM_THEMES.TRANSPARENT, // CUSTOM_THEMES.TRANSPARENT, CUSTOM_THEMES.MATERIAL, CUSTOM_THEMES.MOBILE, CUSTOM_THEMES.COMPACT, CUSTOM_THEMES.HOMEKIT, CUSTOM_THEMES.WINPHONE, CUSTOM_THEMES.WIN95
    transition: TRANSITIONS.ANIMATED_GPU, //ANIMATED or SIMPLE (better perfomance)
    entitySize: ENTITY_SIZES.NORMAL, //SMALL, BIG are available
    tileSize: 150,
@@ -197,13 +197,41 @@ var CONFIG = {
                      title: 'water check',
                      states: {
                         on: "On",
-                        off: "Off"
+                        off: "Off",
                      },
                      icons: {
                         on: 'mdi-hot-tub',
                         off: 'mdi-hot-tub'
                      },
-                  }
+                  },
+                  {
+                      title:"Smoke", //nomi
+                      id: 'binary_sensor.smoke_sensor_fa9e', //idraqami
+                      position:[1,0], //ajratilganJ
+                      type: TYPES.SENSOR_ICON,
+                      states: {
+                        on: "On",
+                        off: "Off",
+                     },
+                     icons: {
+                        on: 'mdi-bell',
+                        off: 'mdi-bell-off',
+                     },
+                  },
+                  {
+                    title:'Door',
+                    position:[0,1],
+                    type: TYPES.SENSOR_ICON,
+                    id: 'binary_sensor.door_and_window_sensor_12b8',
+                    states:{
+                        on:"open",
+                        off:"close",
+                    },
+                    icons:{
+                        off:"mdi-lock",
+                        on:"mdi-lock-open",
+                    },
+                  },
                ],
             },
          ],

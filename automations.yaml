@@ -1,7 +1,37 @@
 - alias: auditorium_light_to_motion_on
   trigger:
     - platform: state
-      entity_id: group.auditorium_sensors
+      entity_id: binary_sensor.motion_sensor_4c4d
+      to: 'on'
+    - platform: state
+      entity_id: binary_sensor.motion_sensor_8cd6
+      to: 'on'
+    - platform: state
+      entity_id: binary_sensor.motion_sensor_a6e6
+      to: 'on'
+    - platform: state
+      entity_id: binary_sensor.motion_sensor_aae4
+      to: 'on'
+    - platform: state
+      entity_id: binary_sensor.motion_sensor_bd40
+      to: 'on'
+    - platform: state
+      entity_id: binary_sensor.motion_sensor_cf72
+      to: 'on'
+    - platform: state
+      entity_id: binary_sensor.motion_sensor_d064
+      to: 'on'
+    - platform: state
+      entity_id: binary_sensor.motion_sensor_d71e
+      to: 'on'
+    - platform: state
+      entity_id: binary_sensor.motion_sensor_ead2
+      to: 'on'
+    - platform: state
+      entity_id: binary_sensor.motion_sensor_f051
+      to: 'on'
+    - platform: state
+      entity_id: binary_sensor.motion_sensor_f0e9
       to: 'on'
   condition:
     - condition: state
